@@ -1,0 +1,4 @@
+htdocs/photos/*
+htdocs/thumbs/*
+smarty/templates_c/*
+smarty/cache/*
