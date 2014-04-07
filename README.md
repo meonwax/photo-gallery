@@ -1,6 +1,10 @@
 ## Photo gallery
 
-### Install
+### Description
+
+...has to be written...
+
+### Installation
 - Copy all files to a directory accessible by the webserver.
 - Make these three directories writable by the webserver:
   - htdocs/thumbs/
