@@ -1,6 +1,6 @@
 <?php
 
-require_once('libs/Smarty.class.php');
+require_once('../smarty/libs/Smarty.class.php');
 
 class SmartySingleton {
 
@@ -28,10 +28,9 @@ class SmartySingleton {
 
 			self::$instance = $smarty;
 		};
+
 		return self::$instance;
 	}
 }
-
-$smarty = SmartySingleton::instance();
 
 ?>
