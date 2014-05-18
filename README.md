@@ -25,3 +25,12 @@ Photo gallery makes use of these projects:
 - https://github.com/yairEO/photobox
 - https://github.com/miromannino/Justified-Gallery
 - http://www.smarty.net
+
+### Issues
+
+- *undefined* text on hovering over thumbnails
+- Image doesn't open when browser window has been resized since page load
+
+### Todo
+
+- GUI for managing photo collection
