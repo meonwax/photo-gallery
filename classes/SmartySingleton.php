@@ -1,6 +1,6 @@
 <?php
 
-require_once('../smarty/libs/Smarty.class.php');
+require_once ('../smarty/libs/Smarty.class.php');
 
 class SmartySingleton {
 
@@ -12,7 +12,7 @@ class SmartySingleton {
 
 	static public function instance() {
 
-		if( !isset( self::$instance ) )	{
+		if (!isset(self::$instance)) {
 
 			$smarty = new Smarty;
 
@@ -31,6 +31,6 @@ class SmartySingleton {
 
 		return self::$instance;
 	}
-}
 
+}
 ?>
