@@ -1,11 +1,7 @@
-## Photo gallery
+# Photo gallery
 
-### Description
-
-...has to be written...
-
-### Installation
-- Copy all files to a directory accessible by the webserver.
+## Installation
+- Copy all files to a directory accessible by the webserver
 - Make these three directories writable by the webserver:
   - htdocs/thumbs/
   - smarty/templates_c/
@@ -18,7 +14,7 @@ chgrp http htdocs/thumbs/ smarty/templates_c/ smarty/cache/
 (change http to the group your webserver is running with)
 ```
 
-### References
+## References
 
 Photo gallery makes use of these projects:
 
